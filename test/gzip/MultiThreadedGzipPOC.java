@@ -6,7 +6,7 @@ import java.util.concurrent.*;
 
 import java.util.zip.GZIPOutputStream;
 
-public class MultiThreadedGzipTest {
+public class MultiThreadedGzipPOC {
 
 	public static int CHUNK_SIZE = 1024 * 1024;
 	public static int NUM_THREADS = 4;
